@@ -1,10 +1,10 @@
-name: Uberwar
+name: Uberjar
 
 on: [push]
 
 jobs:
   build:
-    name: Checkout code and test
+    name: Checkout code and create uberjar
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,4 +15,4 @@ jobs:
           cli: 1.11.1.1139
           lein: 2.9.8 
       - name: Run Tests
-        run: lein uberwar
+        run: lein uberjar
