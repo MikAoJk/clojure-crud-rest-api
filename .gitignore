@@ -4,5 +4,15 @@
 *.iws
 *.ipr
 
-# OS specific
+# Leiningen files
+.lein-repl-history
+.lein-deps-history
+target/
+.lein-plugins/
+
+# Compiled files
+*.class
+
+# Other common exclusions
 .DS_Store
+Thumbs.db
