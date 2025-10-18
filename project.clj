@@ -1,8 +1,6 @@
-(defproject clojure-crud-rest-api "0.1.0-SNAPSHOT"
+(defproject clojure-crud-rest-api "1.0.0"
   :description "A simple Clojure CRUD REST API"
-  :url "http://example.com/clojure-crud-rest-api"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "MIT License"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [ring "1.11.0"]
                  [compojure "1.7.1"]
